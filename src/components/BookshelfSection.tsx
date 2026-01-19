@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import booksData from "@/content/books.json";
 import { FilterChips } from "@/components/FilterChips";
 import { SearchInput } from "@/components/SearchInput";
-import { BooksGrid } from "@/components/BooksGrid";
+import { BooksGrid, type Book } from "@/components/BooksGrid";
 import { SectionTitle } from "@/components/SectionTitle";
 import { BookModal } from "@/components/BookModal";
 
@@ -17,11 +17,11 @@ const chips = [
 export function BookshelfSection() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("all");
-  const [selectedBook, setSelectedBook] = useState<null | (typeof booksData)[number]>(null);
+  const [selectedBook, setSelectedBook] = useState<Book | null>(null);
 
   const books = useMemo(() => {
     const query = search.toLowerCase();
-    return booksData.filter((book) => {
+    return (booksData as Book[]).filter((book) => {
       const matchesSearch =
         book.title.toLowerCase().includes(query) || book.author.toLowerCase().includes(query);
       const matchesFilter =
