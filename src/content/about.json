@@ -1,0 +1,20 @@
+{
+  "name": "SHLOK GUPTA",
+  "oneLiner": "A curious person, figuring life out as I go.",
+  "heroImage": "/images/hero.jpg",
+  "now": [
+    { "text": "marketing & gtm at mira" },
+    { "text": "building aven, an ai-native money app" }
+  ],
+  "previously": [
+    { "text": "advised 10+ crypto projects with marketing & gtm" },
+    { "text": "marketing & ops @ devfolio/ethindia; led the grants program" },
+    { "text": "generalist at sequoia backed startup ( blackboard radio)" }
+  ],
+  "lore": [
+    { "text": "went viral on x (more than once, oops)" },
+    { "text": "pulled ~$500k in optimism grants" },
+    { "text": "turned bangalore auto-rickshaws into ethindia billboards" },
+    { "text": "caught a legal notice from shashi tharoor for a guerrilla marketing" }
+  ]
+}

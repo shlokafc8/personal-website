@@ -1,0 +1,162 @@
+{
+  "visitedCountries": ["ES", "PT", "FR", "VN", "AE", "SG", "TH", "US", "ID", "MY", "AR", "IN"],
+  "places": [
+    {
+      "id": "place-1",
+      "slug": "new-york",
+      "city": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "marker": { "x": 27.0, "y": 34.0 },
+      "yearsVisited": [2025],
+      "notes": "First long walks, late nights.",
+      "photos": [
+        { "src": "/images/travel/usa-1.jpg", "caption": "A random USA frame." }
+      ]
+    },
+    {
+      "id": "place-2",
+      "slug": "madrid",
+      "city": "Madrid",
+      "country": "Spain",
+      "countryCode": "ES",
+      "marker": { "x": 49.0, "y": 39.0 },
+      "yearsVisited": [2023],
+      "notes": "Late dinners and long avenues.",
+      "photos": [
+        { "src": "/images/travel/madrid-1.jpg", "caption": "Sunlit city blocks." }
+      ]
+    },
+    {
+      "id": "place-3",
+      "slug": "lisbon",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "marker": { "x": 47.0, "y": 40.5 },
+      "yearsVisited": [2023],
+      "notes": "Hills, tiles, and ocean air.",
+      "photos": [
+        { "src": "/images/travel/lisbon-1.jpg", "caption": "Blue-and-white streets." }
+      ]
+    },
+    {
+      "id": "place-4",
+      "slug": "paris",
+      "city": "Paris",
+      "country": "France",
+      "countryCode": "FR",
+      "marker": { "x": 52.2, "y": 36.0 },
+      "yearsVisited": [2023],
+      "notes": "Sketches and river walks.",
+      "photos": [
+        { "src": "/images/travel/paris-1.jpg", "caption": "Morning light by the Seine." }
+      ]
+    },
+    {
+      "id": "place-5",
+      "slug": "ho-chi-minh-city",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "marker": { "x": 73.0, "y": 55.5 },
+      "yearsVisited": [2023, 2025],
+      "notes": "Scooters, rain, and strong coffee.",
+      "photos": [
+        { "src": "/images/travel/vietnam-1.jpg", "caption": "Street corners at dusk." }
+      ]
+    },
+    {
+      "id": "place-6",
+      "slug": "dubai",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "marker": { "x": 62.0, "y": 46.0 },
+      "yearsVisited": [2024],
+      "notes": "Desert light and late nights.",
+      "photos": [
+        { "src": "/images/travel/dubai-1.jpg", "caption": "Glass and sky." }
+      ]
+    },
+    {
+      "id": "place-7",
+      "slug": "singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "marker": { "x": 73.5, "y": 62.5 },
+      "yearsVisited": [2024, 2025],
+      "notes": "Clean lines, humid air.",
+      "photos": [
+        { "src": "/images/travel/singapore-1.jpg", "caption": "Evening glow." }
+      ]
+    },
+    {
+      "id": "place-8",
+      "slug": "bangkok",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "marker": { "x": 70.5, "y": 52.5 },
+      "yearsVisited": [2024],
+      "notes": "Markets, heat, and motion.",
+      "photos": [
+        { "src": "/images/travel/thailand-1.jpg", "caption": "Night market light." }
+      ]
+    },
+    {
+      "id": "place-9",
+      "slug": "bali",
+      "city": "Ubud",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "marker": { "x": 76.0, "y": 63.5 },
+      "yearsVisited": [2019, 2025],
+      "notes": "Warm light, rice terraces, slow afternoons.",
+      "photos": [
+        { "src": "/images/travel/bali-1.jpg", "caption": "A random Bali frame." }
+      ]
+    },
+    {
+      "id": "place-10",
+      "slug": "kuala-lumpur",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "marker": { "x": 72.5, "y": 60.5 },
+      "yearsVisited": [2025],
+      "notes": "City lights and night food.",
+      "photos": [
+        { "src": "/images/travel/malaysia-1.jpg", "caption": "City skyline." }
+      ]
+    },
+    {
+      "id": "place-11",
+      "slug": "jaipur",
+      "city": "Jaipur",
+      "country": "India",
+      "countryCode": "IN",
+      "marker": { "x": 65.2, "y": 46.5 },
+      "yearsVisited": [2024],
+      "notes": "Warm days and busy streets.",
+      "photos": [
+        { "src": "/images/travel/india-1.jpg", "caption": "A random India frame." }
+      ]
+    },
+    {
+      "id": "place-12",
+      "slug": "buenos-aires",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "marker": { "x": 40.8, "y": 78.2 },
+      "yearsVisited": [2025],
+      "notes": "Slow evenings and book-lined cafes.",
+      "photos": [
+        { "src": "/images/travel/ba-1.jpg", "caption": "Side streets at dusk." },
+        { "src": "/images/travel/argentina-1.jpg", "caption": "A random Argentina frame." }
+      ]
+    }
+  ]
+}

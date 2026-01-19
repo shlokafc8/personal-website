@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fbfbf7;
+  --text: #111111;
+  --border: rgba(0, 0, 255, 0.35);
+  --accent: #0000ff;
+  --accent-soft: rgba(0, 0, 255, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "IBM Plex Mono", "SF Pro Text", "SF Pro Display", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+a {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.border-subtle {
+  border-color: var(--border);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent-soft {
+  background: var(--accent-soft);
+}
+
+.map-country {
+  fill: rgba(0, 0, 255, 0.04);
+  stroke: rgba(0, 0, 255, 0.35);
+  stroke-width: 0.7;
+}
+
+.map-country.visited {
+  fill: var(--accent-soft);
+  stroke: #bcbcff;
+}
+
+.map-marker {
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.map-marker:hover {
+  transform: translate(-50%, calc(-50% - 1px));
+  border-color: var(--accent);
+}

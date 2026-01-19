@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "book-1",
+    "title": "Psychology of Money",
+    "author": "Morgan Housel",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 2020,
+    "notes": "Timeless lessons on wealth, greed, and happiness doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people. How to manage money, invest it, and make business decisions are typically considere"
+  },
+  {
+    "id": "book-2",
+    "title": "The third door",
+    "author": "Alex Banayan",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 2020,
+    "notes": "\"The larger-than-life journey of an 18-year-old college freshman who set out from his dorm room to track down Bill Gates, Lady Gaga, and dozens more of the world's most successful people to uncover how they broke through and launched their careers. The Third Door takes readers on"
+  },
+  {
+    "id": "book-3",
+    "title": "Zero to One",
+    "author": "Peter Theil",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 2020,
+    "notes": "If you want to build a better future, you must believe in secrets. The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In Zero to One , legendary entrepreneur and investor Peter Thiel shows how we can find singular way"
+  },
+  {
+    "id": "book-4",
+    "title": "Atomic habits",
+    "author": "James Clear",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 0,
+    "notes": "No matter your goals, Atomic Habits offers a proven framework for improving every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behavio"
+  },
+  {
+    "id": "book-5",
+    "title": "Alchemy",
+    "author": "Rory Sutherland",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-6",
+    "title": "High Growth Handbook",
+    "author": "Elad Gil",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-7",
+    "title": "Love yourself like your life depends on it",
+    "author": "Kamal Ravikant",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-8",
+    "title": "How I turned down a billion dollars",
+    "author": "Billy Gallagher",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-9",
+    "title": "Ride of a lifetime",
+    "author": "Bob Iger",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Robert Iger shares the lessons he's learned while running Disney and leading its 200,000 employees, and he explores the principles that are necessary for true leadership. Iger became CEO of the Walt Disney Company in 2005, during a difficult time. His vision for the future came d"
+  },
+  {
+    "id": "book-10",
+    "title": "Jony Ive: The Genius Behind Apple's greatest products",
+    "author": "Leander Kahney",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-11",
+    "title": "No filter",
+    "author": "Sarah Frier",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-12",
+    "title": "Surely you are Joking Mr. Feynman",
+    "author": "Richard Feynman",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-13",
+    "title": "That will never Work",
+    "author": "Marc Randaloph",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-14",
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482l/11084145._SY475_.jpg",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2017,
+    "notes": "Based on more than forty interviews with Jobs conducted over two years -- as well as interviews with more than a hundred family members, friends, adversaries, competitors, and colleagues -- Walter Isaacson has written a riveting story of the roller-coaster life and searingly inte"
+  },
+  {
+    "id": "book-15",
+    "title": "Creativity, Inc.",
+    "author": "Ed Catmull",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400863577l/18077903.jpg",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2019,
+    "notes": "Creativity, Inc. is a book for managers who want to lead their employees to new heights, a manual for anyone who strives for originality, and the first-ever, all-access trip into the nerve center of Pixar Animation—into the meetings, postmortems, and “Braintrust” sessions where s"
+  },
+  {
+    "id": "book-16",
+    "title": "Sam Walton: Made In America",
+    "author": "Sam Walton",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463939506l/10631._SY475_.jpg",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2017,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-17",
+    "title": "Shoe Dog",
+    "author": "Phil Knight",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 2019,
+    "notes": "\"In this candid and riveting memoir, for the first time ever, Nike founder and CEO Phil Knight shares the inside story of the company's early days as an intrepid start-up and its evolution into one of the world's most iconic, game-changing, and profitable brands. In 1962, fresh o"
+  },
+  {
+    "id": "book-18",
+    "title": "Sneaker Wars",
+    "author": "Barbara Smit",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2019,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-19",
+    "title": "Tools of Titan",
+    "author": "Tim Ferriss",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 0,
+    "notes": "Tim Ferriss, famed productivity expert and author of *The 4-Hour Work Week*, has access to some pretty high-powered individuals for his podcast. In this book, he distills the insights from their hours-long interviews, tests their methods and advice at home, and gives actionable t"
+  },
+  {
+    "id": "book-20",
+    "title": "Factfulness",
+    "author": "Hans Rosling",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Factfulness: The stress-reducing habit of only carrying opinions for which you have strong supporting facts. When asked simple questions about global trends―what percentage of the world’s population live in poverty; why the world’s population is increasing; how many girls finish "
+  },
+  {
+    "id": "book-21",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "From a renowned historian comes a groundbreaking narrative of humanity’s creation and evolution—a #1 international bestseller—that explores the ways in which biology and history have defined us and enhanced our understanding of what it means to be “human.” One hundred thousand ye"
+  },
+  {
+    "id": "book-22",
+    "title": "White Tiger",
+    "author": "Arvind Adiga",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-23",
+    "title": "Hard thing about hard things",
+    "author": "Ben Horowtiz",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-24",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328736124l/10144145.jpg",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2018,
+    "notes": "April of 2022 marks a 25-year milestone for the personal finance classic Rich Dad Poor Dad that still ranks as the #1 Personal Finance book of all time. And although 25 years have passed since Rich Dad Poor Dad was first published, readers will find that very little in the book i"
+  },
+  {
+    "id": "book-25",
+    "title": "The Monk Who Sold His Ferrari",
+    "author": "Robin Sharma",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342338948l/10695150.jpg",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2019,
+    "notes": "Includes a bonus excerpt of Robin Sharma's upcoming The Secret Letters of the Monk Who Sold His Ferrari. With more than four million copies sold in fifty-one languages, The Monk Who Sold His Ferrari launched a bestselling series and continues to help people from every walk of lif"
+  },
+  {
+    "id": "book-26",
+    "title": "The Kite Runner",
+    "author": "Khaled Housseni",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "The unforgettable, heartbreaking story of the unlikely friendship between a wealthy boy and the son of his father’s servant, The Kite Runner is a beautifully crafted novel set in a country that is in the process of being destroyed. It is about the power of reading, the price of b"
+  },
+  {
+    "id": "book-27",
+    "title": "Kane & Abel",
+    "author": "Jeffrey Archer",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Kane and Abel is a 1979 novel by British author Jeffrey Archer. Released in the United Kingdom in 1979 and in the United States in February 1980, the book was an international success. It reached No. 1 on the New York Times best-seller list. The sequel to Kane and Abel is The Pro"
+  },
+  {
+    "id": "book-28",
+    "title": "Harry Potter (All)",
+    "author": "J.K Rowling",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-29",
+    "title": "Invent & Wander",
+    "author": "Jeff Bezos",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-30",
+    "title": "Tuesdays with Morrie",
+    "author": "Mitch Albom",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Tuesdays with Morrie is a memoir by American author Mitch Albom about a series of visits Albom made to his former sociology professor Morrie Schwartz, as Schwartz gradually dies of ALS. The book topped the New York Times Non-Fiction Best-Sellers List for 23 combined weeks in 2000"
+  },
+  {
+    "id": "book-31",
+    "title": "Thinking in bets",
+    "author": "Annie Duke",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "\"Poker champion turned business consultant Annie Duke teaches you how to get comfortable with uncertainty and make better decisions as a result. In Super Bowl XLIX, Seahawks coach Pete Carroll made one of the most controversial calls in football history: With 26 seconds remaining"
+  },
+  {
+    "id": "book-32",
+    "title": "Deep work",
+    "author": "Cal Newport",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "One of the most valuable skills in our economy is becoming increasingly rare. If you master this skill, you'll achieve extraordinary results. Deep work is the ability to focus without distraction on a cognitively demanding task. It's a skill that allows you to quickly master comp"
+  },
+  {
+    "id": "book-33",
+    "title": "Big Billion Startup",
+    "author": "Mihir Dalal",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-34",
+    "title": "Elon Musk",
+    "author": "Ashlee Vance",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444831210l/22535480._SY475_.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2017,
+    "notes": "In the spirit of Steve Jobs and Moneyball, Elon Musk is both an illuminating and authorized look at the extraordinary life of one of Silicon Valley's most exciting, unpredictable, and ambitious entrepreneurs -- a real-life Tony Stark -- and a fascinating exploration of the renewa"
+  },
+  {
+    "id": "book-35",
+    "title": "Unstoppable",
+    "author": "Sonu Bhasin",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-36",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2018,
+    "notes": "The Art of War is an ancient Chinese military treatise dating from the Late Spring and Autumn Period. The work, which is attributed to the ancient Chinese military strategist Sun Tzu"
+  },
+  {
+    "id": "book-37",
+    "title": "Loonshots",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-38",
+    "title": "Sell",
+    "author": "Subroto Baghchi",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Ben shu nei rong bao kuo:xiao shou de nei zai bo yi,She li bing shi xian quan bu xiao shou mu biao,Ren men yin he er gou mai,Chuang yi xiao shou,Yue jian geng duo de ke hu,Cheng gong xiao shou de shi da guan jian deng."
+  },
+  {
+    "id": "book-39",
+    "title": "Hit Refresh",
+    "author": "Satya Nadella",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-40",
+    "title": "Losing my virginity",
+    "author": "Richard Branson",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-41",
+    "title": "Influence",
+    "author": "Robert Cialdini",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Influence, the classic book on persuasion, explains the psychology of why people say \"yes\"—and how to apply these understandings. Dr. Robert Cialdini is the seminal expert in the rapidly expanding field of influence and persuasion. His thirty-five years of rigorous, evidence-base"
+  },
+  {
+    "id": "book-42",
+    "title": "Alibaba",
+    "author": "Duncan Clark",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Traces the founding of Alibaba, the world's second largest Internet company, by an English teacher from humble origins, drawing on exclusive interviews to explore how the company and Jack Ma have become icons and leading employers in China's booming private sector."
+  },
+  {
+    "id": "book-43",
+    "title": "The everything store",
+    "author": "Brad Stone",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "This book is the definitive story of Amazon.com, one of the most successful companies in the world, and of its driven, brilliant founder, Jeff Bezos. Amazon.com started off delivering books through the mail. But its visionary founder, Jeff Bezos, wasn't content with being a books"
+  },
+  {
+    "id": "book-44",
+    "title": "Unshakable",
+    "author": "Tony Robbins",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-45",
+    "title": "1984",
+    "author": "George Orwell",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Winston Smith lives in a society where the government controls people every second of the day. He fights this world with love. But it's dangerous: love for another person can be punished by death - and Big Brother is always watching. Orwell's classic story shows that there is no "
+  },
+  {
+    "id": "book-46",
+    "title": "Play Bigger",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "The founders of a respected Silicon Valley advisory firm study legendary category-creating companies and reveal a groundbreaking discipline called category design. Winning today isn't about beating the competition at the old game. It's about inventing a whole new game--defining a"
+  },
+  {
+    "id": "book-47",
+    "title": "Little book of Happiness",
+    "author": "Ruskin Bond",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-48",
+    "title": "The Quick and Easy Way to Effective Speaking",
+    "author": "Unknown",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348090332l/840394.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2018,
+    "notes": "Bestselling author Dale Carnegie?s The Quick and Easy Way to Effective Speaking provides tips and techniques to become a master communicator, be it at a meeting, a sales pitch, a presentation or at a social gathering. Read this book to find out how to: ? Overcome stage fright and"
+  },
+  {
+    "id": "book-49",
+    "title": "Richest Man In Babylon",
+    "author": "Unknown",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348336780l/1052.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2018,
+    "notes": "To bring your dreams and desires to fulfillment, you must be successful with money. This book shows you how to amass personal wealth by sharing the secrets of the ancient Babylonians, who were the first to discover the universal laws of prosperity. Hailed as the greatest of all i"
+  },
+  {
+    "id": "book-50",
+    "title": "Prisoner from Birth",
+    "author": "Jeffrey Archer",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-51",
+    "title": "The Godfather",
+    "author": "Mario Puzo",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "The Godfather is a crime novel by American author Mario Puzo. Originally published in 1969 by G. P. Putnam's Sons, the novel details the story of a fictional Mafia family in New York City (and Long Beach, New York), headed by Vito Corleone. Puzo's dedication for The Godfather is "
+  },
+  {
+    "id": "book-52",
+    "title": "How to win friends and influence people",
+    "author": "Dale Carnegie",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Available for the first time ever in trade paperback, Dale Carnegie's enduring classic, the inspirational personal development guide that shows how to achieve lifelong success. One of the top-selling books of all time, \"How to Win Friends & Influence People\" has sold more than 15"
+  },
+  {
+    "id": "book-53",
+    "title": "Maverick",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Red-hot and reckless! Pete Bennett: this maverick playboy revels in the thrill of the chase. He never falls for a girl; she falls for him, and he's the one to walk away.... In Greece for the summer, Serena can't resist the glint of sin in Pete's eyes. Soon the baddest of boys has"
+  },
+  {
+    "id": "book-54",
+    "title": "The Alchemist",
+    "author": "Paul Coelho",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-55",
+    "title": "Traction",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-56",
+    "title": "Karma Yoga",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-57",
+    "title": "Brief Answers to Big Questions",
+    "author": "Stephen Hawking",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Stephen Hawking was recognized as one of the greatest minds of our time and a figure of inspiration after defying his ALS diagnosis at age twenty-one. He is known for both his breakthroughs in theoretical physics as well as his ability to make complex concepts accessible for all,"
+  },
+  {
+    "id": "book-58",
+    "title": "Siddharta",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-59",
+    "title": "Nikola Tesla: Imagination and the Man That Invented the 20th Century",
+    "author": "Unknown",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366561721l/17835351.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-60",
+    "title": "Think and Grow Rich",
+    "author": "Napoleon",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388177008l/1005.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2017,
+    "notes": "Napoleon Hill's quintessential volume _Think and grow rich_, the all-time bestseller in the field of professional success, outlines the laws of success and sets the standard of today's motivational thinking."
+  },
+  {
+    "id": "book-61",
+    "title": "100-year-old man who jumped out the window and disappeared",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-62",
+    "title": "The four",
+    "author": "Scott Galloway",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-63",
+    "title": "Purple Cow",
+    "author": "Seth Godin",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "208 p. : 21 cm"
+  },
+  {
+    "id": "book-64",
+    "title": "Power of your subconscious mind",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Examines the connection between the mental dynamics of thinking in relation to one's quality of life while offering simple techniques designed to create new, more innovative thought processes and stimulate creativity, in a revised and expanded edition of the best-selling work."
+  },
+  {
+    "id": "book-65",
+    "title": "Game theory: Graphic Guide",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-66",
+    "title": "Lean Startup",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "\"Most startups are built to fail. But those failures, according to entrepreneur Eric Ries, are preventable. Startups don't fail because of bad execution, or missed deadlines, or blown budgets. They fail because they are building something nobody wants. Whether they arise from som"
+  },
+  {
+    "id": "book-67",
+    "title": "Stay hungry Stay Foolish",
+    "author": "Rashmi Bansal",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-68",
+    "title": "Ignited Minds",
+    "author": "APJ Abdul Kalam",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "What is it that we as a nation are missing? Why, given all our skills, resources and talents, do we settle so often for the ordinary instead of striving to be the best? At the heart of Ignited Minds is an irresistible premise: that people do have the power, through hard work, to "
+  },
+  {
+    "id": "book-69",
+    "title": "How to talk to anyone",
+    "author": "Leil Lowndes",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "“You’ll not only break the ice, you’ll melt it away with your new skills.” — Larry King“The lost art of verbal communication may be revitalized by Leil Lowndes.” — Harvey McKay, author of “How to Swim with the Sharks Without Being Eaten Alive”What is that magic quality makes some"
+  },
+  {
+    "id": "book-70",
+    "title": "Gray Mountain",
+    "author": "John Grisham",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Hace una semana Samantha Kofer trabajaba en una prestigiosa firma de abogados de Nueva York. Ahora trabaja gratis en una asesoría legal para clientes sin recursos en una pequeña ciudad de Virginia. La caída de Lehman Brothers supuso para ella la pérdida del trabajo, de la segurid"
+  },
+  {
+    "id": "book-71",
+    "title": "Arise, Awake",
+    "author": "Rashmi Bansal",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-72",
+    "title": "Interpreter of Maladies",
+    "author": "Jhumpa Lahiri",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Title: Interpreter of Maladies. - Boston : Houghton Mifflin. \"Interpreter of Maladies\" is a collection of nine short stories by Jhumpa Lahiri, exploring the lives of Indian and Indian-American characters who are grappling with issues of identity, displacement, and the complexitie"
+  },
+  {
+    "id": "book-73",
+    "title": "Billionaire Boy",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "It’s good"
+  },
+  {
+    "id": "book-74",
+    "title": "13 steps to bloody good wealth",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-75",
+    "title": "Who will cry when you die",
+    "author": "Robin Sharma",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "“ When you were born, you cried while the world rejoiced. Live your life in such a way that when you die, the world cries while you rejoice.”  Ancient Sanskrit saying Does the gem of wisdom quoted above strike a chord deep within you? Do you feel that life is slipping by so fast"
+  },
+  {
+    "id": "book-76",
+    "title": "If god was a banker",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-77",
+    "title": "Striking Thoughts",
+    "author": "Bruce Lee",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-78",
+    "title": "No Easy Day",
+    "author": "Mike Owen",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "For the first time anywhere, the first-person account of the planning and execution of the Bin Laden raid from a Navy Seal who confronted the terrorist mastermind and witnessed his final moment. From the streets of Iraq to the rescue of Captain Richard Phillips in the Indian Ocea"
+  },
+  {
+    "id": "book-79",
+    "title": "I have a Dream",
+    "author": "Rashmi Bansal",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-80",
+    "title": "The 10X Rule",
+    "author": "Grant Cardone",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "\"Achieve \"Massive Action\" results and accomplish your business dreams! While most people operate with only three degrees of action-no action, retreat, or normal action-if you're after big goals, you don't want to settle for the ordinary. To reach the next level, you must understa"
+  },
+  {
+    "id": "book-81",
+    "title": "The Mastery Manual",
+    "author": "Robin Sharma",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️"
+  },
+  {
+    "id": "book-82",
+    "title": "The Warren Buffett Way",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️"
+  },
+  {
+    "id": "book-83",
+    "title": "Who Moved My Cheese?",
+    "author": "Unknown",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388639717l/4894.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2019,
+    "notes": "Who Moved My Cheese? is a simple parable that reveals profound truths about change. It is an amusing and enlightening story of four characters who live in a \"Maze\" and look for \"Cheese\" to nourish them and make them happy. Two are mice named Sniff and Scurry. And two are \"little "
+  },
+  {
+    "id": "book-84",
+    "title": "Turning Point",
+    "author": "APJ Abdul Kalam",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "In Turning Points, Noll takes readers on a tour of twelve decisive moments in Christian history, using numerous maps, charts, and illustrations. He also reflects on some twentieth-century events that may someday be considered turning points. This unique approach enables readers t"
+  },
+  {
+    "id": "book-85",
+    "title": "Subtle art of not giving a fuck",
+    "author": "mark manson",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️"
+  },
+  {
+    "id": "book-86",
+    "title": "One thing",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️"
+  },
+  {
+    "id": "book-87",
+    "title": "Jugaad",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "\"A frugal and flexible approach to innovation for the 21st centuryInnovation is a key directive at companies worldwide. But in these tough times, we can't rely on the old formula that has sustained innovation efforts for decades--expensive R&D projects and highly-structured innov"
+  },
+  {
+    "id": "book-88",
+    "title": "Hackers & Painters",
+    "author": "Paul Graham",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "\"The computer world is like an intellectual Wild West, in which you can shoot anyone you wish with your ideas, if you're willing to risk the consequences. \" --from Hackers & Painters: Big Ideas from the Computer Age , by Paul Graham We are living in the computer age, in a world i"
+  },
+  {
+    "id": "book-89",
+    "title": "Johan Cruyff - My turn",
+    "author": "Johan Cruyff",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-90",
+    "title": "This is Marketing",
+    "author": "Seth Godin",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2021,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-91",
+    "title": "Thinking fast & slow",
+    "author": "Daniel Kahneman",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "In his mega bestseller, Thinking, Fast and Slow, Daniel Kahneman, world-famous psychologist and winner of the Nobel Prize in Economics, takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotion"
+  },
+  {
+    "id": "book-92",
+    "title": "Hitchhiker's Guide to Galaxy",
+    "author": "Douglas Adams",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Ongoing, TBC · Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-93",
+    "title": "Moonwalking with Einstein",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "The blockbuster phenomenon that charts an amazing journey of the mind while revolutionizing our concept of memory “Highly entertaining.” —Adam Gopnik, The New Yorker “Funny, curious, erudite, and full of useful details about ancient techniques of training memory.” —The Boston Glo"
+  },
+  {
+    "id": "book-94",
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388315129l/18872940.jpg",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2020,
+    "notes": "Status: Ongoing"
+  },
+  {
+    "id": "book-95",
+    "title": "Lean Product Playbook",
+    "author": "Dan Olsen",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "\"The missing manual on how to apply Lean Startup to build products that customers love The Lean Product Playbook is a practical guide to building products that customers love. Whether you work at a startup or a large, established company, we all know that building great products "
+  },
+  {
+    "id": "book-96",
+    "title": "Building a Storybrand",
+    "author": "Donald Miller",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Get heard and not ignored by your costumers"
+  },
+  {
+    "id": "book-97",
+    "title": "Ogilvy on Advertising (Digital Age)",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Ongoing, TBC"
+  },
+  {
+    "id": "book-98",
+    "title": "Working Backwards",
+    "author": "Colin and Bill",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-99",
+    "title": "The evolution of everything",
+    "author": "Matt Ridley",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "\"The New York Times bestselling author of The Rational Optimist and Genome returns with a fascinating, brilliant argument for evolution that definitively dispels a dangerous, widespread myth: that we can command and control our world.The Evolution of Everything is about bottom-up"
+  },
+  {
+    "id": "book-100",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Nearly two thousand years after it was written, Meditations remains profoundly relevant for anyone seeking to lead a meaningful life. Few ancient works have been as influential as the Meditations of Marcus Aurelius, philosopher and emperor of Rome (A.D. 161–180). A series of spir"
+  },
+  {
+    "id": "book-101",
+    "title": "Open",
+    "author": "Andre Agassi",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": true,
+    "yearRead": 2021,
+    "notes": "From Andre Agassi, one of the most beloved athletes in history and one of the most gifted men ever to step onto a tennis court, a beautiful, haunting autobiography. Agassi's incredibly rigorous training begins when he is just a child. By the age of thirteen, he is banished to a F"
+  },
+  {
+    "id": "book-102",
+    "title": "The 4-hour workweek",
+    "author": "Tim Ferriss",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "The New York Times bestselling how-to and why-to guide to throwing out the old tools and methods for success and replacing them with a whole new way of living Tim Ferriss has trouble defining what he does for a living. Depending on when you ask this controversial Princeton Univer"
+  },
+  {
+    "id": "book-103",
+    "title": "The last ten percent",
+    "author": "TGC Prasad",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-104",
+    "title": "Homo Deus",
+    "author": "Yuval Noah Harari",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Que deviendront nos démocraties quand Google et Facebook connaîtront nos goûts et nos préférences politiques mieux que nous-mêmes ? Qu'adviendra-t-il de l'Etat providence lorsque nous, les humains, serons évincés du marché de l'emploi par des ordinateurs plus performants ? Quelle"
+  },
+  {
+    "id": "book-105",
+    "title": "Consolations of Philosophy",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "A good introduction to philosophy and the great philosophers for young people, with a short biographical note, and an analysis of how they approached the major issues of life. Chapter headings include Unpopularity, Not Having Enough Money, Frustration, Inadequacy, Broken Heart an"
+  },
+  {
+    "id": "book-106",
+    "title": "https://www.amazon.in/gp/product/1781257655/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1",
+    "author": "Ryan Holiday",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-107",
+    "title": "https://www.amazon.in/gp/product/0552172588/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-108",
+    "title": "https://www.amazon.in/gp/product/0141035811/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1",
+    "author": "Bruno Munari",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️"
+  },
+  {
+    "id": "book-109",
+    "title": "https://www.amazon.in/gp/product/1847942784/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-110",
+    "title": "https://www.amazon.in/gp/product/0099302780/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Ongoing"
+  },
+  {
+    "id": "book-111",
+    "title": "https://www.amazon.in/gp/product/1784161853/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-112",
+    "title": "https://www.amazon.in/gp/product/9354893899/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-113",
+    "title": "https://www.amazon.in/gp/product/1471195589/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1",
+    "author": "Jerry Seinfeld",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 2022,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-114",
+    "title": "Building a Second Brain",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "For the first time in history, we have instantaneous access to the world’s knowledge. There has never been a better time to learn, to contribute, and to improve ourselves. Yet, rather than feeling empowered, we are often left feeling overwhelmed by this constant influx of informa"
+  },
+  {
+    "id": "book-115",
+    "title": "How to build a car",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-116",
+    "title": "Lifespan",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-117",
+    "title": "Super Thinking",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Ongoing"
+  },
+  {
+    "id": "book-118",
+    "title": "Sketchbook of Wisdom",
+    "author": "Vishal Khandelwal",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-119",
+    "title": "Maybe you should talk to someone",
+    "author": "Lori Gottlieb",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "From a New York Times best-selling author, psychotherapist, and national advice columnist, a hilarious, thought-provoking, and surprising new book that takes us behind the scenes of a therapist’s world—where her patients are looking for answers (and so is she). One day, Lori Gott"
+  },
+  {
+    "id": "book-120",
+    "title": "Trillion Dollar Coach",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Rating: ⭐️⭐️⭐️"
+  },
+  {
+    "id": "book-121",
+    "title": "Silent Patient",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Alicia Berenson’s life is seemingly perfect. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word. Alicia’s refusal to talk, or give any kind of explanation, turns a domestic trage"
+  },
+  {
+    "id": "book-122",
+    "title": "All about Love",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Ongoing"
+  },
+  {
+    "id": "book-123",
+    "title": "4-hour Body",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "The 4-Hour Body is the result of an obsessive quest, spanning more than a decade, to hack the human body. It contains the collective wisdom of hundreds of elite athletes, dozens of MDs, and thousands of hours of jaw-dropping personal experimentation. From Olympic training centers"
+  },
+  {
+    "id": "book-124",
+    "title": "The Creative Act",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "“I set out to write a book about what to do to make a great work of art. Instead, it revealed itself to be a book on how to be.” —Rick Rubin Many famed music producers are known for a particular sound that has its day. Rick Rubin is known for something else: creating a space wher"
+  },
+  {
+    "id": "book-125",
+    "title": "Art of Public Speaking",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-126",
+    "title": "How to see the world",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-127",
+    "title": "The greatest minds and ideas of all time",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "\"From the \"Hundred Best Books\" to the \"Ten Greatest Thinkers\" to the \"Ten Greatest Poets\" here is a concise collection of the world's most signficant knowledge. For the better part of a century - Will Durant dwelled upon - and wrote about - the most significant eras, individuals,"
+  },
+  {
+    "id": "book-128",
+    "title": "History of Bees",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Describes the physical characteristics and behavior of bees, followed by two poems about birds"
+  },
+  {
+    "id": "book-129",
+    "title": "Techproof me",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "Status: Yet to start"
+  },
+  {
+    "id": "book-130",
+    "title": "The courage to be disliked",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": true,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": "*\"The Courage to Be Disliked,* already an enormous bestseller in Asia with more than 3.5 million copies sold, demonstrates how to unlock the power within yourself to be the person you truly want to be. Using the theories of Alfred Adler, one of the three giants of twentieth centu"
+  },
+  {
+    "id": "book-131",
+    "title": "Vagabonding",
+    "author": "Unknown",
+    "coverImage": "/images/placeholder.png",
+    "liked": false,
+    "readAgain": false,
+    "yearRead": 0,
+    "notes": null
+  }
+]

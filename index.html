@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polynomial Minesweeper Beta</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #CDFE40;
+            font-family: 'MS Sans Serif', Arial, sans-serif;
+        }
+        #game-window {
+            background-color: #c0c0c0;
+            border: 3px solid #dfdfdf;
+            border-right-color: #808080;
+            border-bottom-color: #808080;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+            transform: scale(1.25);
+        }
+        #title-bar {
+            background: linear-gradient(to right, #000080, #1084d0);
+            color: white;
+            padding: 3px 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #title-bar-text {
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .title-bar-controls {
+            display: flex;
+        }
+        .title-bar-controls button {
+            width: 16px;
+            height: 14px;
+            border: 1px solid white;
+            background-color: #c0c0c0;
+            margin-left: 2px;
+            font-size: 9px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+        #game-container {
+            padding: 10px;
+        }
+        #minesweeper-grid {
+            display: grid;
+            grid-template-columns: repeat(9, 20px);
+            gap: 1px;
+        }
+        .cell {
+            width: 20px;
+            height: 20px;
+            border: 2px outset #ffffff;
+            background-color: #c0c0c0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .cell:active {
+            border-style: inset;
+        }
+        .revealed {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #808080;
+        }
+        #game-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: #c0c0c0;
+            border: 2px inset #ffffff;
+            padding: 5px;
+        }
+        .counter {
+            background-color: #000000;
+            color: #ff0000;
+            font-family: 'Digital', monospace;
+            font-size: 20px;
+            padding: 2px 5px;
+            border: 1px inset #808080;
+        }
+        #restart-button {
+            font-size: 24px;
+            cursor: pointer;
+            background: #c0c0c0;
+            border: 2px outset #ffffff;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #restart-button:active {
+            border-style: inset;
+        }
+        .cell[data-value="1"] { color: blue; }
+        .cell[data-value="2"] { color: green; }
+        .cell[data-value="3"] { color: red; }
+        #game-status {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center;
+        }
+        .retro-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #c0c0c0;
+            border: 2px outset #ffffff;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            padding: 20px;
+            font-family: 'MS Sans Serif', Arial, sans-serif;
+            z-index: 1000;
+        }
+        .retro-popup-title {
+            background-color: #000080;
+            color: #ffffff;
+            padding: 2px 5px;
+            margin: -20px -20px 10px -20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .retro-popup-content {
+            margin-bottom: 15px;
+            font-size: 12px;
+        }
+        .retro-popup-button {
+            background-color: #c0c0c0;
+            border: 2px outset #ffffff;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .retro-popup-button:active {
+            border-style: inset;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-window">
+        <div id="title-bar">
+            <span id="title-bar-text">Polynomial Minesweeper Beta</span>
+            <div class="title-bar-controls">
+                <button id="help-button">?</button>
+                <button id="refresh-button">↻</button>
+                <button id="close-button">×</button>
+            </div>
+        </div>
+        <div id="game-container">
+            <div id="game-info">
+                <span id="flags-left" class="counter">010</span>
+                <button id="restart-button">😊</button>
+                <span id="timer" class="counter">000</span>
+            </div>
+            <div id="minesweeper-grid"></div>
+        </div>
+        <div id="game-status">
+            Level: Beginner | Status: Ready
+        </div>
+    </div>
+    
+    <div id="retro-popup" class="retro-popup">
+        <div class="retro-popup-title">
+            <span id="popup-title">Minesweeper</span>
+            <button class="title-bar-controls" onclick="closeRetroPopup()">×</button>
+        </div>
+        <div id="retro-popup-content" class="retro-popup-content"></div>
+        <button class="retro-popup-button" onclick="closeRetroPopup()">OK</button>
+    </div>
+
+    <script>
+        const ROWS = 9;
+        const COLS = 9;
+        const MINES = 10;
+
+        let board = [];
+        let gameOver = false;
+        let flagsLeft = MINES;
+        let timeStarted = null;
+        let timer = null;
+
+        function createBoard() {
+            board = Array(ROWS).fill().map(() => Array(COLS).fill(0));
+            let minesPlaced = 0;
+            while (minesPlaced < MINES) {
+                const row = Math.floor(Math.random() * ROWS);
+                const col = Math.floor(Math.random() * COLS);
+                if (board[row][col] !== 'X') {
+                    board[row][col] = 'X';
+                    minesPlaced++;
+                }
+            }
+
+            for (let row = 0; row < ROWS; row++) {
+                for (let col = 0; col < COLS; col++) {
+                    if (board[row][col] !== 'X') {
+                        board[row][col] = countAdjacentMines(row, col);
+                    }
+                }
+            }
+        }
+
+        function countAdjacentMines(row, col) {
+            let count = 0;
+            for (let i = Math.max(0, row - 1); i <= Math.min(ROWS - 1, row + 1); i++) {
+                for (let j = Math.max(0, col - 1); j <= Math.min(COLS - 1, col + 1); j++) {
+                    if (board[i][j] === 'X') count++;
+                }
+            }
+            return count;
+        }
+
+        function createGrid() {
+            const grid = document.getElementById('minesweeper-grid');
+            for (let row = 0; row < ROWS; row++) {
+                for (let col = 0; col < COLS; col++) {
+                    const cell = document.createElement('div');
+                    cell.classList.add('cell');
+                    cell.dataset.row = row;
+                    cell.dataset.col = col;
+                    cell.addEventListener('click', handleClick);
+                    cell.addEventListener('contextmenu', handleRightClick);
+                    grid.appendChild(cell);
+                }
+            }
+        }
+
+        function handleClick(event) {
+            if (gameOver) return;
+            const row = parseInt(event.target.dataset.row);
+            const col = parseInt(event.target.dataset.col);
+            reveal(row, col);
+        }
+
+        function handleRightClick(event) {
+            event.preventDefault();
+            if (gameOver) return;
+            const cell = event.target;
+            if (!cell.classList.contains('revealed')) {
+                if (cell.textContent === '🚩') {
+                    cell.textContent = '';
+                    flagsLeft++;
+                } else if (flagsLeft > 0) {
+                    cell.textContent = '🚩';
+                    flagsLeft--;
+                }
+                updateFlagsLeft();
+            }
+        }
+
+        function reveal(row, col) {
+            const cell = document.querySelector(`.cell[data-row="${row}"][data-col="${col}"]`);
+            if (cell.classList.contains('revealed') || cell.textContent === '🚩') return;
+
+            cell.classList.add('revealed');
+
+            if (board[row][col] === 'X') {
+                cell.textContent = '💣';
+                gameOver = true;
+                revealAll();
+                document.getElementById('restart-button').textContent = '😢';
+                document.getElementById('game-status').textContent = 'Level: Beginner | Status: Game Over';
+                setTimeout(() => {
+                    const pointsEarned = Math.floor(Math.random() * 50) + 1;
+                    showRetroPopup(`Game Over! You earned ${pointsEarned} points. Visit tomorrow for more!`);
+                }, 2000);
+            } else if (board[row][col] === 0) {
+                for (let i = Math.max(0, row - 1); i <= Math.min(ROWS - 1, row + 1); i++) {
+                    for (let j = Math.max(0, col - 1); j <= Math.min(COLS - 1, col + 1); j++) {
+                        reveal(i, j);
+                    }
+                }
+            } else {
+                cell.textContent = board[row][col];
+                cell.dataset.value = board[row][col];
+            }
+
+            if (checkWin() && !gameOver) {
+                gameOver = true;
+                document.getElementById('restart-button').textContent = '😎';
+                document.getElementById('game-status').textContent = 'Level: Beginner | Status: You Won!';
+                setTimeout(() => {
+                    const pointsEarned = Math.floor(Math.random() * 100) + 50;
+                    showRetroPopup(`Congratulations! You won! You earned ${pointsEarned} points. Visit tomorrow for more!`);
+                }, 2000);
+            }
+        }
+
+        function revealAll() {
+            for (let row = 0; row < ROWS; row++) {
+                for (let col = 0; col < COLS; col++) {
+                    const cell = document.querySelector(`.cell[data-row="${row}"][data-col="${col}"]`);
+                    cell.classList.add('revealed');
+                    if (board[row][col] === 'X') {
+                        cell.textContent = '💣';
+                    } else if (board[row][col] !== 0) {
+                        cell.textContent = board[row][col];
+                        cell.dataset.value = board[row][col];
+                    }
+                }
+            }
+        }
+
+        function checkWin() {
+            for (let row = 0; row < ROWS; row++) {
+                for (let col = 0; col < COLS; col++) {
+                    if (board[row][col] !== 'X' && !document.querySelector(`.cell[data-row="${row}"][data-col="${col}"]`).classList.contains('revealed')) {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        function updateFlagsLeft() {
+            document.getElementById('flags-left').textContent = flagsLeft.toString().padStart(3, '0');
+        }
+
+        function updateTimer() {
+            const elapsed = Math.floor((Date.now() - timeStarted) / 1000);
+            document.getElementById('timer').textContent = elapsed.toString().padStart(3, '0');
+        }
+
+        function startGame() {
+            createBoard();
+            createGrid();
+            updateFlagsLeft();
+            timeStarted = Date.now();
+            timer = setInterval(updateTimer, 1000);
+            document.getElementById('restart-button').textContent = '😊';
+            document.getElementById('game-status').textContent = 'Level: Beginner | Status: Ready';
+        }
+
+        function restartGame() {
+            clearInterval(timer);
+            gameOver = false;
+            flagsLeft = MINES;
+            const grid = document.getElementById('minesweeper-grid');
+            grid.innerHTML = '';
+            startGame();
+        }
+
+        function showRetroPopup(message, title = "Minesweeper") {
+            document.getElementById('popup-title').textContent = title;
+            document.getElementById('retro-popup-content').textContent = message;
+            document.getElementById('retro-popup').style.display = 'block';
+        }
+
+        function closeRetroPopup() {
+            document.getElementById('retro-popup').style.display = 'none';
+        }
+
+        function showHelpPopup() {
+            const helpMessage = "How to play Minesweeper:\n\n" +
+                "1. Click on a cell to reveal it.\n" +
+                "2. Numbers show how many mines are adjacent.\n" +
+                "3. Right-click to flag a suspected mine.\n" +
+                "4. Clear all non-mine cells to win!\n\n" +
+                "Good luck!";
+            showRetroPopup(helpMessage, "Minesweeper Help");
+        }
+
+        document.getElementById('help-button').addEventListener('click', showHelpPopup);
+        document.getElementById('refresh-button').addEventListener('click', restartGame);
+        document.getElementById('close-button').addEventListener('click', () => window.close());
+
+        startGame();
+    </script>
+</body>
+</html>
