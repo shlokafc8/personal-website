@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-type Book = {
+export type Book = {
   id: string;
   title: string;
   author: string;
@@ -8,7 +8,7 @@ type Book = {
   liked: boolean;
   readAgain: boolean;
   yearRead: number;
-  notes?: string;
+  notes?: string | null;
 };
 
 type BooksGridProps = {

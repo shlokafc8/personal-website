@@ -3,16 +3,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 
-type Book = {
-  id: string;
-  title: string;
-  author: string;
-  coverImage: string;
-  liked: boolean;
-  readAgain: boolean;
-  yearRead: number;
-  notes?: string | null;
-};
+import type { Book } from "./BooksGrid";
 
 type BookModalProps = {
   book: Book | null;
