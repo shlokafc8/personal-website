@@ -1,5 +1,5 @@
 {
-  "visitedCountries": ["ES", "PT", "FR", "VN", "AE", "SG", "TH", "US", "ID", "MY", "AR", "IN"],
+  "visitedCountries": ["ES", "PT", "FR", "AE", "TH", "ID", "MY", "AR", "IN"],
   "places": [
     {
       "id": "place-1",

@@ -23,7 +23,7 @@ export function FilterChips({ chips, active, onChange }: FilterChipsProps) {
             onClick={() => onChange(chip.id)}
             className={`border px-3 py-1 text-xs tracking-[0.2em] transition ${
               isActive
-                ? "border-[var(--accent)] text-[var(--text)]"
+                ? "border-[var(--accent)] text-[var(--accent)]"
                 : "border-subtle text-[var(--text)] opacity-70 hover:opacity-100"
             }`}
           >

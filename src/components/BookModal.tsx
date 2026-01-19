@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 
-import type { Book } from "./BooksGrid";
+import { BOOK_COVER_PLACEHOLDER, getBookCoverImage, type Book } from "./BooksGrid";
 
 type BookModalProps = {
   book: Book | null;
@@ -36,7 +36,17 @@ export function BookModal({ book, onClose }: BookModalProps) {
         <div className="flex items-start justify-between gap-4">
           <div className="flex gap-4">
             <div className="relative h-[180px] w-[130px] border border-subtle bg-white">
-              <Image src={book.coverImage} alt={book.title} fill className="object-cover" />
+              <Image
+                src={getBookCoverImage(book)}
+                alt={book.title}
+                fill
+                className="object-cover"
+                onError={(event) => {
+                  if (!event.currentTarget.src.includes(BOOK_COVER_PLACEHOLDER)) {
+                    event.currentTarget.src = BOOK_COVER_PLACEHOLDER;
+                  }
+                }}
+              />
             </div>
             <div>
               <h3 className="text-lg font-semibold text-[var(--text)]">{book.title}</h3>

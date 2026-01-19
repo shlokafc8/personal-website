@@ -18,10 +18,16 @@ export function TravelSection() {
 
   const filteredPlaces = useMemo(() => {
     const q = query.toLowerCase();
-    return travelData.places.filter(
-      (place) =>
-        place.city.toLowerCase().includes(q) || place.country.toLowerCase().includes(q)
-    );
+    return travelData.places
+      .filter(
+        (place) =>
+          place.city.toLowerCase().includes(q) || place.country.toLowerCase().includes(q)
+      )
+      .sort((a, b) => {
+        const aYear = Math.max(...a.yearsVisited);
+        const bYear = Math.max(...b.yearsVisited);
+        return bYear - aYear;
+      });
   }, [query]);
 
   return (
@@ -47,23 +53,22 @@ export function TravelSection() {
             placeholder="Search places by city or country…"
           />
         </div>
-        <div className="grid gap-3 md:grid-cols-2">
+        <div className="grid gap-3 md:grid-cols-4">
           {filteredPlaces.map((place) => (
             <button
               key={place.id}
               type="button"
               onClick={() => setSelectedPlace(place)}
-                className="flex items-center justify-between border border-subtle bg-white px-4 py-3 text-left transition hover:border-[var(--accent)]"
+              className="group flex items-center justify-between border border-[var(--text)] bg-white px-4 py-3 text-left transition hover:border-[var(--accent)]"
             >
               <div>
-                <p className="text-sm font-normal text-[var(--text)]">
+                <p className="text-sm font-normal text-[var(--text)] transition group-hover:text-[var(--accent)]">
                   {countryToFlag(place.countryCode)} {place.country}
                 </p>
-                <p className="text-xs text-[var(--text)]/70">{place.yearsVisited.join(", ")}</p>
+                <p className="text-xs text-[var(--text)]/70 transition group-hover:text-[var(--accent)]">
+                  {place.yearsVisited.join(", ")}
+                </p>
               </div>
-              <span className="text-xs uppercase tracking-[0.2em] text-[var(--text)]/60">
-                {place.countryCode}
-              </span>
             </button>
           ))}
         </div>

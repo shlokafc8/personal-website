@@ -12,31 +12,31 @@ const writingItems: WritingItem[] = [
   {
     title: "first week at network school",
     source: "SUBSTACK",
-    year: "2024",
+    year: "2025",
     href: "https://actofshlok.substack.com/p/first-week-at-network-school"
   },
   {
     title: "i hate running",
     source: "SUBSTACK",
-    year: "2024",
+    year: "2025",
     href: "https://actofshlok.substack.com/p/i-hate-running"
   },
   {
     title: "long road to recovery",
     source: "SUBSTACK",
-    year: "2024",
+    year: "2025",
     href: "https://actofshlok.substack.com/p/long-road-to-recovery"
   },
   {
     title: "whoop: is it worth it",
     source: "SUBSTACK",
-    year: "2024",
+    year: "2025",
     href: "https://actofshlok.substack.com/p/whoop-is-it-worth-it"
   },
   {
     title: "quick 2024 recap",
     source: "SUBSTACK",
-    year: "2024",
+    year: "2025",
     href: "https://actofshlok.substack.com/p/quick-2024-recap"
   },
   {
@@ -72,9 +72,14 @@ export default function HomePage() {
       <section id="about" className="scroll-mt-24">
         <div className="grid gap-10 md:grid-cols-[1.1fr_1fr] md:grid-rows-[auto_1fr]">
           <div className="space-y-4 md:col-start-1 md:row-start-1">
-            <h1 className="mt-3 text-3xl font-semibold text-[var(--text)]">
+            <h1 className="mt-3 text-3xl font-semibold text-[var(--accent)]">
               {aboutContent.name}
             </h1>
+            <div className="flex flex-wrap gap-4 text-xs tracking-[0.2em]">
+              <a href="#writing">WRITING</a>
+              <a href="#bookshelf">BOOKSHELF</a>
+              <a href="#travel">TRAVEL LOG</a>
+            </div>
           </div>
           <div className="space-y-4 md:col-start-1 md:row-start-2">
             <p className="text-base text-[var(--text)]/70">
@@ -114,14 +119,14 @@ export default function HomePage() {
             <a
               key={item.title}
               href={item.href}
-              className="block border-b border-dashed border-[var(--accent)]/40 pb-4 !no-underline hover:no-underline"
+              className="group block border-b border-dashed border-[var(--accent)]/40 pb-4 !no-underline hover:no-underline"
               target="_blank"
               rel="noreferrer"
             >
-              <p className="text-sm font-normal text-[var(--text)] underline underline-offset-4">
+              <p className="text-sm font-normal text-[var(--text)] underline underline-offset-4 transition group-hover:text-[var(--accent)]">
                 {item.title}
               </p>
-              <p className="mt-1 text-[11px] tracking-[0.2em] text-[var(--text)]/35">
+              <p className="mt-1 text-[11px] tracking-[0.2em] text-[var(--text)]/35 transition group-hover:text-[var(--accent)]/80">
                 {item.source} · {item.year}
               </p>
             </a>

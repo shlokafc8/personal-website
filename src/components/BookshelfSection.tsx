@@ -21,7 +21,8 @@ export function BookshelfSection() {
 
   const books = useMemo(() => {
     const query = search.toLowerCase();
-    return (booksData as Book[]).filter((book) => {
+    return (booksData as Book[])
+      .filter((book) => {
       const matchesSearch =
         book.title.toLowerCase().includes(query) || book.author.toLowerCase().includes(query);
       const matchesFilter =
@@ -29,7 +30,8 @@ export function BookshelfSection() {
         (filter === "liked" && book.liked) ||
         (filter === "readAgain" && book.readAgain);
       return matchesSearch && matchesFilter;
-    });
+      })
+      .sort((a, b) => (b.yearRead || 0) - (a.yearRead || 0));
   }, [search, filter]);
 
   return (
